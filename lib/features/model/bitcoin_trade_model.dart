@@ -8,4 +8,5 @@ class BitcoinTrade {
     price: double.parse(json['p'].toString()),
     timestampMs: json['T'] as int,
   );
+  
 }
