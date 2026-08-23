@@ -34,6 +34,7 @@ class TradeModel {
       createdAt: (data['createdAt'] as Timestamp?)?.toDate() ?? DateTime.now(),
     );
   }
+  
 
   Map<String, dynamic> toMap() => {
     'userId': userId,
