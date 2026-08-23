@@ -1,0 +1,67 @@
+{
+  "project_info": {
+    "project_number": "323929341217",
+    "project_id": "flutter-desk-c1609",
+    "storage_bucket": "flutter-desk-c1609.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:323929341217:android:f9c657b229898047581260",
+        "android_client_info": {
+          "package_name": "com.example.crypto_trader"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGcciA88vS6U2EPEaJLZKCWHcAx2CSXWo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:323929341217:android:b7711815e8b402af581260",
+        "android_client_info": {
+          "package_name": "com.example.practice"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGcciA88vS6U2EPEaJLZKCWHcAx2CSXWo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:323929341217:android:13cd36f4bd676859581260",
+        "android_client_info": {
+          "package_name": "com.smt.flutter.desk"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBGcciA88vS6U2EPEaJLZKCWHcAx2CSXWo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
