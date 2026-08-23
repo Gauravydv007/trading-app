@@ -42,6 +42,7 @@ class WatchlistService {
               snap.docs.map((d) => WatchlistModel.fromFirestore(d)).toList(),
         );
   }
+  
 
   Future<bool> isInWatchlist(String userId, String symbol) async {
     final snap = await _firestore
