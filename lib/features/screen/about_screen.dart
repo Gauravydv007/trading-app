@@ -66,9 +66,9 @@ class AboutScreen extends StatelessWidget {
                           _buildLinkItem(
                             icon: Icons.business_center_outlined,
                             label: 'LinkedIn',
-                            value: 'linkedin.com/in/sagor-samadder',
+                            value: 'https://www.linkedin.com/in/gaurav-yadav-b710a1291/',
                             onTap: () => _copyToClipboard(
-                              'https://www.linkedin.com/in/sagor-samadder/',
+                              'https://www.https://www.linkedin.com/in/gaurav-yadav-b710a1291//',
                               'LinkedIn URL',
                             ),
                           ),
@@ -207,7 +207,7 @@ class AboutScreen extends StatelessWidget {
                   child: CircleAvatar(
                     radius: 52,
                     backgroundImage: const AssetImage(
-                      'assets/sagor samadder.png',
+                      'assets/gaurav.png',
                     ),
                     backgroundColor: _surface,
                   ),
@@ -218,7 +218,7 @@ class AboutScreen extends StatelessWidget {
           const SizedBox(height: 64),
           // Name & title
           const Text(
-            'Sagor Samadder',
+            'gaurav',
             style: TextStyle(
               color: Colors.white,
               fontSize: 22,
