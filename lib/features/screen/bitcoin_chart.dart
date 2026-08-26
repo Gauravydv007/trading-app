@@ -53,7 +53,7 @@ class _Header extends StatelessWidget {
           boxShadow: [
             BoxShadow(
               color: Colors.black.withValues(alpha: 0.4),
-              blurRadius: 12,
+              blurRadius: 13,
               offset: const Offset(0, 4),
             ),
           ],
@@ -80,8 +80,8 @@ class _Header extends StatelessWidget {
                     Text(
                       '${c.selectedCrypto.value.symbol} / USDT',
                       style: const TextStyle(
-                        color: Colors.white38,
-                        fontSize: 12,
+                        color: Colors.white24,
+                        fontSize: 13,
                       ),
                     ),
                   ],
