@@ -35,7 +35,7 @@ class TransactionHistoryScreen extends StatelessWidget {
             child: Column(
               mainAxisSize: MainAxisSize.min,
               children: [
-                Icon(Icons.history, color: Colors.white24, size: 48),
+                Icon(Icons.history, color: Colors.white30, size: 48),
                 SizedBox(height: 12),
                 Text(
                   'No transactions yet',
