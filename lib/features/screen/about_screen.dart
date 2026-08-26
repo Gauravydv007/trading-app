@@ -32,7 +32,7 @@ class AboutScreen extends StatelessWidget {
                       child: const Text(
                         'Flutter developer passionate about building beautiful, '
                         'high-performance mobile and cross-platform applications. '
-                        'Experienced with Firebase, REST APIs, real-time data, '
+                        'Experienced with Firebase, REST  APIs, real-time data, '
                         'and clean architecture patterns.',
                         style: TextStyle(
                           color: Colors.white70,
@@ -108,9 +108,9 @@ class AboutScreen extends StatelessWidget {
           const Text(
             'About Developer',
             style: TextStyle(
-              color: Colors.white,
+              color: Colors.white30,
               fontSize: 18,
-              fontWeight: FontWeight.w700,
+              fontWeight: FontWeight.w600,
             ),
           ),
         ],
