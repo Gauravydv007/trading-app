@@ -22,7 +22,7 @@ A full-featured cryptocurrency trading simulator built with Flutter. CryptoTrade
 - **Portfolio Wallet** — Monitor total portfolio value, USD balance, and individual coin holdings (BTC, ETH, SOL, DOGE, BNB) at a glance
 - **Buy & Sell** — Instantly trade any supported coin using your available USD balance
 - **Trade History** — A complete, timestamped log of every buy and sell transaction, including execution price
-- **Deposit Funds** — Add funds to your account via secure Stripe integration, using preset amounts ($25, $50, $100, $250) or a custom value
+- **Deposit Funds** — Add funds to your account via secure Stripe integration, using preset amounts ($20, $80, $120, $280) or a custom value
 - **Dark Theme UI** — A clean, modern dark interface with consistent green accents throughout
 
 ---
