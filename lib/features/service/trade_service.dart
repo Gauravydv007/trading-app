@@ -107,6 +107,7 @@ class TradeService {
     });
   }
 
+
   Stream<List<TradeModel>> tradesStream(String userId) {
     return _firestore
         .collection('trades')
@@ -126,4 +127,5 @@ class TradeService {
         .get();
     return snap.docs.map((d) => TradeModel.fromFirestore(d)).toList();
   }
+  
 }
