@@ -130,6 +130,7 @@ class LoginScreen extends StatelessWidget {
     );
   }
 
+
   void _showForgotPasswordDialog(
     BuildContext context,
     AuthController authCtrl,
@@ -161,7 +162,7 @@ class LoginScreen extends StatelessWidget {
               style: const TextStyle(color: Colors.white),
               decoration: InputDecoration(
                 hintText: 'Email',
-                hintStyle: const TextStyle(color: Colors.white24),
+                hintStyle: const TextStyle(color: Colors.white30),
                 prefixIcon: const Icon(
                   Icons.email_outlined,
                   color: Colors.white24,
