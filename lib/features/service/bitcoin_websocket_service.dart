@@ -52,6 +52,7 @@ class BitcoinWebSocketService {
     _tradeController.addError(error);
   }
 
+
   void _onDone() {
     _statusController.add('Disconnected');
     _tradeController.addError(Exception('WebSocket connection closed'));
@@ -62,4 +63,5 @@ class BitcoinWebSocketService {
     _tradeController.close();
     _statusController.close();
   }
+  
 }
