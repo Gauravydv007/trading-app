@@ -187,6 +187,7 @@ class _ChartSection extends StatelessWidget {
     });
   }
 
+
   LineChartData _buildChartData({
     required List<FlSpot> spots,
     required Color accent,
@@ -638,4 +639,5 @@ class _ChangeBadge extends StatelessWidget {
       ),
     );
   }
+  
 }
